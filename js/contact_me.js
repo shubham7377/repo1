@@ -31,7 +31,7 @@ $(function() {
                     message: message
                 },
                 crossDomain: true,
-                dataType: 'text',
+                dataType: 'html',
                 cache: false,
                 success: function() {
                     // Enable button & show success message
