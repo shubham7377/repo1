@@ -31,9 +31,8 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                hearder: {
-                Access-Control-Allow-Origin: *
-                },
+                crossDomain: true,
+                dataType: 'jsonp',
                 success: function() {
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
