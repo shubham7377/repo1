@@ -31,6 +31,7 @@ $(function() {
                     message: message
                 },
                 crossDomain: true,
+                dataType: 'jsonp',
                 cache: false,
                 success: function() {
                     // Enable button & show success message
