@@ -31,6 +31,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
+                Access-Control-Allow-Origin: *,
                 success: function() {
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
