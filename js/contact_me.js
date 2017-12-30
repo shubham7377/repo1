@@ -30,7 +30,7 @@ $(function() {
                     email: email,
                     message: message
                 },
-                contentType: "text/html",
+                contentType: "application/json",
                 crossDomain: true,
                 dataType: 'jsonp',
                 cache: false,
