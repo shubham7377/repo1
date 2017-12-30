@@ -30,9 +30,8 @@ $(function() {
                     email: email,
                     message: message
                 },
-                contentType: "application/json",
                 crossDomain: true,
-                dataType: 'jsonp',
+                dataType: 'text',
                 cache: false,
                 success: function() {
                     // Enable button & show success message
