@@ -22,7 +22,6 @@ $(function() {
             }
             $.ajax({
                 url: "././mail/contact_me.php",
-                //url: "http://development.sayyoyoyo.com/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
